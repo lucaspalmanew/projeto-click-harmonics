@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 0 30px;
+    height: 81px;
+}
+
+
+nav a{
+    margin: 0 30px;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: #c8c8c8;
+    cursor: pointer;   
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(270deg, #000000 -110.7%, #000000 232.49%);
+}
+
+.conteudo-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+    background-image: url(img/closeup-of-cutaway-acoustic-guitar-over-black-background.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 400px;
+    
+}
+
+
+.caixa-banner {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+}
+
+.nome-banner {
+    font-size: 72px;
+    color: #5d5143;
+
+}
+
+.subtitulo-banner {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.botao1 {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.botao-contratar {
+    background-color: #000000;
+    width: 207px;
+    height: 77px;
+    border-width: 0;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao-contratar:hover {
+    background-color: #5d5143;
+    cursor: pointer;   
+}
+
+
+.sobremim {
+    background-color: #000000;
+    z-index: 1;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulosections {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtitulosections {
+    font-weight: normal;
+    font-size: 28px;
+    color:#5d5143;
+    margin: -18px 0 0 0;
+}
+
+.titulo-texto-sobremim {
+    margin-top: 40px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.paragrafo-sobremim {
+    font-weight: normal;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.botao-curriculo {
+    background-color: #5d5143;
+    width: 207px;
+    height: 77px;
+    border-width: 0;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+
+.botao-curriculo:hover {
+    background-color: #6b6054;
+    cursor: pointer;   
+}
+
+.minhashabilidades {
+    background-color: #000000;
+    text-align: center;
+}
+
+.desenvolvedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px;
+    align-items: flex-start;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    background-color: #5d5143;
+}
+
+.titulo-habilidades {
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.habilidades p {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.marketing, .desenvolvedor, .designer {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.historico {
+    background-color: #000000;
+    z-index: 1;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logos-empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    flex-wrap: wrap;
+}
+
+.cdg {
+    margin-left: 100px;
+}
+
+.exfera {
+    margin-left: 100px;
+}
+
+.logos-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logos-2 img {
+    margin: 40px 50px;
+}
+
+.formulario {
+    margin-top: 40px;
+    font-family:'Red Hat Text', sans-serif;
+    
+}
+
+.formularioctt {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario {
+    padding: 0 10px;
+    overflow: hidden;
+    max-width: 600px;
+}
+
+.insira-nome {
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    padding: 16px 40px;
+    outline: none;
+    color: #000000;
+    transition: 0.5s;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.insira-nome:focus {
+    box-shadow: 0 0 10px 2px #E30613; 
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.mensagem-form {
+    background-color: #5d5143;
+    width: 207px;
+    height: 77px;
+    border-width: 0;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(228, 1, 1, 0.25);
+    margin: 20px 0;
+}
+
+.mensagem-form:hover {
+    background-color: #6b6054;
+    cursor: pointer;   
+}
+
+footer {
+    background-color: #5d5143;
+    height: 130px;
+}
+
+.footer {
+    padding-top: 25px;
+}
+footer h2 {
+    margin-left: 60px;
+}
+
+footer p {
+    margin-left: 60px;
+}
